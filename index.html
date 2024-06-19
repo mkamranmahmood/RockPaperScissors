@@ -7,5 +7,55 @@
 </head>
 <body>
     <script src="script.js"></script>
+    <button id="rock" onclick="playRound('rock')">Rock</button>
+    <button id="paper" onclick="playRound('paper')">Paper</button>
+    <button id="scissors" onclick="playRound('scissors')">Scissors</button>
+    <br><br><br>
+
+    <div id="choices">
+        <div id="human">
+            <div>
+                You Chose:
+            </div>
+            <div id="humanchoice">
+                0
+            </div>
+        </div>
+
+        <div id="computer">
+            <div>
+                Computer Chose:
+            </div>
+            <div id="computerchoice">
+                0
+            </div>       
+    </div>
+
+    <div id="result" {display:none}>
+
+    </div>
+
+    <br><br><br>
+
+    <div id="scoreboard">
+        <div id="human">
+            <div>
+                Your Score:
+            </div>
+            <div id="humanscore">
+                0
+            </div>
+        </div>
+
+        <div id="computer">
+            <div>
+                Computer's Score:
+            </div>
+            <div id="computerscore">
+                0
+            </div>
+        </div>
+        
+    </div>
 </body>
 </html>
