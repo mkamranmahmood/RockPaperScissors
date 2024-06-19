@@ -46,12 +46,12 @@ function playRound(string) {
         computerScore++;
     } else if (humanChoice == "Rock" && computerChoice == "Scissors") {
         //console.log("Human wins")
-        result="Human wins"
+        result="You win"
         document.getElementById("result").innerHTML = result;
         humanScore++;
     } else if (humanChoice == "Paper" && computerChoice == "Rock") {
         //console.log("Human wins")
-        result="Human wins"
+        result="You win"
         document.getElementById("result").innerHTML = result;
         humanScore++;
     } else if (humanChoice == "Paper" && computerChoice == "Paper") {
@@ -70,7 +70,7 @@ function playRound(string) {
         computerScore++;
     } else if (humanChoice == "Scissors" && computerChoice == "Paper") {
         //console.log("Human wins")
-        result="Human wins"
+        result="You win"
         document.getElementById("result").innerHTML = result;
         humanScore++;
     } else if (humanChoice == "Scissors" && computerChoice == "Scissors") {
